@@ -22,7 +22,7 @@ function next() {
 }
 
 function next_reverse() {
-	click((n + 2) % wnp.length)
+	click((n + (wnp.length - 1)) % wnp.length)
 }
 
 function click(i) {
