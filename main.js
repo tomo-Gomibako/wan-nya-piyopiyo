@@ -20,6 +20,11 @@ click(n)
 function next() {
 	click((n + 1) % wnp.length)
 }
+
+function next_reverse() {
+	click((n + (wnp.length - 1)) % wnp.length)
+}
+
 function click(i) {
 	if(i >= wnp.length) {
 		return
